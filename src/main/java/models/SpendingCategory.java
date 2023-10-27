@@ -21,7 +21,7 @@ public class SpendingCategory {
 	@Column
 	private String base64Image;
 
-	@OneToMany(mappedBy="spending_category")
+	@OneToMany(mappedBy="spendingCategory")
 	private Set<Spending> spendings;
 	
 	public SpendingCategory() {
