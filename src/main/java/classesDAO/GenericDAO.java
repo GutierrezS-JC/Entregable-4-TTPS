@@ -17,5 +17,7 @@ public interface GenericDAO<T> {
 	public T get(Integer id);
 	
 	public List<T> getAll(String column);
+
+	public T getBy(String data, String column);
 	
 }

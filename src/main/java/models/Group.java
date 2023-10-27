@@ -12,12 +12,14 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "grupos")
 public class Group {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private Integer id;
 	
 	@Column
 	private String name;
@@ -47,7 +49,7 @@ public class Group {
 		
 	}
 
-	public Group(Long id, String name, Double totalBalance, User owner, GroupCategory groupCategory) {
+	public Group(Integer id, String name, Double totalBalance, User owner, GroupCategory groupCategory) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -59,7 +61,7 @@ public class Group {
 		this.payments = new HashSet<>();
 	}
 
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
 

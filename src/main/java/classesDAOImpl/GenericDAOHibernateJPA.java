@@ -113,6 +113,15 @@ public class GenericDAOHibernateJPA<T> implements GenericDAO<T> {
 
 		return entity;
 	}
+	
+	@Override
+	public T getBy(String data, String column) {
+		// TODO Auto-generated method stub
+		Query consulta = EMF.getEMF().createEntityManager()
+				.createQuery("select e from " + getPersistentClass().getSimpleName() + " e where e." + column + " = '" + data + "'");
+		List<T> resultado = (List<T>) consulta.getResultList();
+		if(resultado.isEmpty()) return null; else return resultado.get(0) ;
+	}
 
 	@Override
 	public List<T> getAll(String column) {

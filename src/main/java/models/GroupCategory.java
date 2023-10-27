@@ -29,6 +29,12 @@ public class GroupCategory {
 		this.name = name;
 		this.base64Image = base64Image;
 	}
+	
+	public GroupCategory(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 
 	public Integer getId() {
 		return id;

@@ -62,11 +62,10 @@ public class Spending {
 	@ManyToMany(mappedBy = "spendings")
 	private Set<User> users;
 
-	public Spending(Integer id, String name, String description, Double amount, LocalDate createdAt,
+	public Spending(String name, String description, Double amount, LocalDate createdAt,
 			LocalDate endingDate, String proofOfPayment, RecurrentEnum recurrence, DivisionEnum division, User owner,
 			SpendingCategory spendingCategory, Group group) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.amount = amount;

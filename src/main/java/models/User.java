@@ -71,10 +71,9 @@ public class User {
 		super();
 	}
 
-	public User(Integer id, String email, String username, String password, String name, String lastName,
+	public User(String email, String username, String password, String name, String lastName,
 			String profilepicBase64) {
 		super();
-		this.id = id;
 		this.email = email;
 		this.username = username;
 		this.password = password;

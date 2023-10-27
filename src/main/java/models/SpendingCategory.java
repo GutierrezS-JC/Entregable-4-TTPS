@@ -8,8 +8,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "spending_category")
 public class SpendingCategory {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
