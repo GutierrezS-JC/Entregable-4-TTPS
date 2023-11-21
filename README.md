@@ -7,15 +7,8 @@ Grupo 10
 * Gutierrez Juan Cruz
 * Mattei Juliana
 
-Herramientas necesarias:
-* Java JDK 
-* MySQL
-* Maven
+Este proyecto puede considerarse como **finalizado** y **archivado** ya que para las entregas siguientes (y por ende para la entrega final del TP) se decidio hacer uso de Spring Boot.
 
-Código fuente:
-Clonar el repositorio
-    git clone https://github.com/GutierrezS-JC/CuentasClaras-TTPS.git
+Ciertamente no ibamos a complicarnos mas de la cuenta en realizar toda la configuracion cuando desde nuestro querido Spring Boot viene todo practicamente listo para usarse OOTB.
 
-Configuración de la base de datos:
-Verificar que el nombre del schema, el usuario y password de la conexión y base de datos local coincida con lo propuesto en el proyecto.
-Esta información se encuentra en /CuentasClaras-TTPS/src/main/resources/META-INF/persistence.xml
+**Link al nuevo repo:** (Oculto hasta la finalizacion del mismo, de momento Chungking Express) https://youtu.be/KSpeKBhXhwg?si=3LljToBKt4mPilxK
