@@ -11,4 +11,4 @@ Este proyecto puede considerarse como **finalizado** y **archivado** ya que para
 
 Ciertamente no ibamos a complicarnos mas de la cuenta en realizar toda la configuracion cuando desde nuestro querido Spring Boot viene todo practicamente listo para usarse OOTB.
 
-**Link al nuevo repo:** (Oculto hasta la finalizacion del mismo, de momento Chungking Express) https://youtu.be/KSpeKBhXhwg?si=3LljToBKt4mPilxK
+**Link al nuevo repo:** https://github.com/GutierrezS-JC/Cuentas-Claras-TTPS
